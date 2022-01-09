@@ -1,0 +1,32 @@
+.album {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+.carta{
+    background-color: orange;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+
+.imagen{
+    border: solid 2px black;
+    border-radius: 20px;
+}
